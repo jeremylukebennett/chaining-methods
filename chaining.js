@@ -4,3 +4,5 @@ let result = integers.sort(function(first, second){return second - first;}).filt
 
 
 console.log(result);
+
+document.getElementById("result").innerHTML = result.join(", ");
